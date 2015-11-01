@@ -1,18 +1,19 @@
 //
-//  test1Tests.m
-//  test1Tests
+//  DataModelTests.m
+//  test1
 //
 //  Created by 李新奇 on 15/10/31.
 //  Copyright © 2015年 李新奇. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import "DataModel.h"
 
-@interface test1Tests : XCTestCase
+@interface DataModelTests : XCTestCase
 
 @end
 
-@implementation test1Tests
+@implementation DataModelTests
 
 - (void)setUp {
     [super setUp];
@@ -24,11 +25,11 @@
     [super tearDown];
 }
 
-
-- (void)testExample1 {
+- (void)testModelDefaultId {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    XCTAssertTrue(1 == 1 , @"Just a test");
+    DataModel *model = [[DataModel alloc]init];
+    XCTAssertEqual(model.myId , 100 , @"The default id should be 100");
 }
 
 - (void)testPerformanceExample {

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A05F79CE1BE4B29E008561FB /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A05F79CD1BE4B29E008561FB /* DataModel.m */; };
+		A05F79CF1BE4B29E008561FB /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A05F79CD1BE4B29E008561FB /* DataModel.m */; };
+		A05F79D01BE4B29E008561FB /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A05F79CD1BE4B29E008561FB /* DataModel.m */; };
+		A05F79D21BE4B41D008561FB /* DataModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05F79D11BE4B41D008561FB /* DataModelTests.m */; };
 		A09F15321BE45DDD00603CD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F15311BE45DDD00603CD7 /* main.m */; };
 		A09F15351BE45DDD00603CD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F15341BE45DDD00603CD7 /* AppDelegate.m */; };
 		A09F15381BE45DDD00603CD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F15371BE45DDD00603CD7 /* ViewController.m */; };
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A05F79CC1BE4B29E008561FB /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		A05F79CD1BE4B29E008561FB /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		A05F79D11BE4B41D008561FB /* DataModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModelTests.m; sourceTree = "<group>"; };
 		A09F152D1BE45DDD00603CD7 /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09F15311BE45DDD00603CD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A09F15331BE45DDD00603CD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +117,8 @@
 				A09F153E1BE45DDD00603CD7 /* LaunchScreen.storyboard */,
 				A09F15411BE45DDD00603CD7 /* Info.plist */,
 				A09F15301BE45DDD00603CD7 /* Supporting Files */,
+				A05F79CC1BE4B29E008561FB /* DataModel.h */,
+				A05F79CD1BE4B29E008561FB /* DataModel.m */,
 			);
 			path = test1;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 		A09F15491BE45DDD00603CD7 /* test1Tests */ = {
 			isa = PBXGroup;
 			children = (
+				A05F79D11BE4B41D008561FB /* DataModelTests.m */,
 				A09F154A1BE45DDD00603CD7 /* test1Tests.m */,
 				A09F154C1BE45DDD00603CD7 /* Info.plist */,
 			);
@@ -271,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A09F15381BE45DDD00603CD7 /* ViewController.m in Sources */,
+				A05F79CE1BE4B29E008561FB /* DataModel.m in Sources */,
 				A09F15351BE45DDD00603CD7 /* AppDelegate.m in Sources */,
 				A09F15321BE45DDD00603CD7 /* main.m in Sources */,
 			);
@@ -281,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A09F154B1BE45DDD00603CD7 /* test1Tests.m in Sources */,
+				A05F79D21BE4B41D008561FB /* DataModelTests.m in Sources */,
+				A05F79CF1BE4B29E008561FB /* DataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A09F15561BE45DDD00603CD7 /* test1UITests.m in Sources */,
+				A05F79D01BE4B29E008561FB /* DataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +426,6 @@
 		A09F155B1BE45DDD00603CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test1.test1;
@@ -423,7 +436,6 @@
 		A09F155C1BE45DDD00603CD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test1.test1;
@@ -498,6 +510,7 @@
 				A09F155C1BE45DDD00603CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A09F155D1BE45DDD00603CD7 /* Build configuration list for PBXNativeTarget "test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				A09F155F1BE45DDD00603CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A09F15601BE45DDD00603CD7 /* Build configuration list for PBXNativeTarget "test1UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				A09F15621BE45DDD00603CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
