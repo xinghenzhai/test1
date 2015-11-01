@@ -38,6 +38,16 @@
         [_helloLabel setText:[NSString stringWithFormat:@"you input %@!" , str]];
         
     }
+    if(str.length > 0) {
+        [_helloText setText:str];
+        [_helloLabel setText:[NSString stringWithFormat:@"you input %@!" , str]];
+        
+    }
+    if(str.length > 0) {
+        [_helloText setText:str];
+        [_helloLabel setText:[NSString stringWithFormat:@"you input %@!" , str]];
+        
+    }
 }
 
 - (IBAction)clickHelloButton:(id)sender {
