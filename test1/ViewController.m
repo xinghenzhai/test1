@@ -24,4 +24,29 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clickBlieveMeButton:(id)sender {
+    NSString *str = [_helloText.text stringByTrimmingCharactersInSet:
+                     [NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    
+    if(str.length > 0) {
+        [_helloText setText:str];
+        [_helloLabel setText:[NSString stringWithFormat:@"you input %@!" , str]];
+        
+    }
+    if(str.length > 0) {
+        [_helloText setText:str];
+        [_helloLabel setText:[NSString stringWithFormat:@"you input %@!" , str]];
+        
+    }
+}
+
+- (IBAction)clickHelloButton:(id)sender {
+    NSString *str = [_helloText.text stringByTrimmingCharactersInSet:
+                     [NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    
+    if(str.length > 0) {
+        [_helloText setText:str];
+        [_helloLabel setText:[NSString stringWithFormat:@"Hello %@!" , str]];
+    }
+}
 @end

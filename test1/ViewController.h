@@ -11,5 +11,13 @@
 @interface ViewController : UIViewController
 
 
+@property (weak, nonatomic) IBOutlet UITextField *helloText;
+
+@property (weak, nonatomic) IBOutlet UILabel *helloLabel;
+
+- (IBAction)clickBlieveMeButton:(id)sender;
+
+- (IBAction)clickHelloButton:(id)sender;
+
 @end
 
